@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <title>Scissors - First Class Lever</title>
+  <!-- Scissors -->
+  <path d="M150 150 L250 100 L350 150 L250 200 Z" fill="none" stroke="#000" stroke-width="2"/>
+  
+  <!-- Pivot Point -->
+  <circle cx="250" cy="150" r="5" fill="red"/>
+  <text x="240" y="180" font-size="12">نقطة الارتكاز</text>
+  
+  <!-- Force Arrow -->
+  <path d="M150 150 L120 130" fill="none" stroke="blue" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="100" y="120" font-size="12">القوة</text>
+  
+  <!-- Load Arrow -->
+  <path d="M350 150 L380 170" fill="none" stroke="green" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="360" y="190" font-size="12">المقاومة</text>
+  
+  <!-- Title -->
+  <text x="150" y="30" font-size="14" font-weight="bold">المقص - رافعة من النوع الأول</text>
+  
+  <!-- Arrowhead marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#000"/>
+    </marker>
+  </defs>
+</svg>

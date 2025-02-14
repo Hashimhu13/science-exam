@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <title>Chemical Reaction</title>
+  <!-- Reactants -->
+  <circle cx="100" cy="150" r="30" fill="#ff9999"/>
+  <circle cx="160" cy="150" r="30" fill="#99ff99"/>
+  
+  <!-- Arrow -->
+  <path d="M200 150 L300 150" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M250 130 L250 170" fill="none" stroke="red" stroke-width="2"/>
+  <text x="240" y="120" font-size="12">حرارة</text>
+  
+  <!-- Products -->
+  <circle cx="350" cy="150" r="40" fill="#9999ff"/>
+  
+  <!-- Labels -->
+  <text x="150" y="30" font-size="14" font-weight="bold">تفاعل طارد للحرارة</text>
+  <text x="80" y="200" font-size="12">متفاعلات</text>
+  <text x="340" y="200" font-size="12">نواتج</text>
+  
+  <!-- Arrowhead marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#000"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <title>Animal Cell Structure</title>
+  <!-- Cell Membrane -->
+  <ellipse cx="200" cy="150" rx="180" ry="120" fill="none" stroke="#000" stroke-width="2"/>
+  
+  <!-- Nucleus -->
+  <circle cx="200" cy="150" r="40" fill="#f0f0f0" stroke="#000"/>
+  <text x="185" y="155" font-size="12">النواة</text>
+  
+  <!-- Mitochondria -->
+  <path d="M280 100 Q300 120 280 140" fill="#ff9999" stroke="#000"/>
+  <text x="290" y="120" font-size="12">الميتوكوندريا</text>
+  
+  <!-- Golgi Apparatus -->
+  <path d="M120 180 Q140 200 120 220" fill="#99ff99" stroke="#000"/>
+  <text x="100" y="200" font-size="12">جهاز جولجي</text>
+  
+  <!-- Labels -->
+  <text x="150" y="30" font-size="14" font-weight="bold">تركيب الخلية الحيوانية</text>
+</svg>
