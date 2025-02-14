@@ -203,6 +203,23 @@ h2 {
     font-size: 1rem;
 }
 
+.question-image-container {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.question-image {
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.question-image:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
 @media (max-width: 600px) {
     .container {
         padding: 1rem;

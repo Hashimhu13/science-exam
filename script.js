@@ -64,6 +64,25 @@ document.addEventListener('DOMContentLoaded', () => {
         currentQuestionSpan.textContent = currentQuestionIndex + 1;
         questionText.textContent = question.question;
         
+        // إضافة الصورة إذا كانت موجودة
+        const existingImage = document.querySelector('.question-image');
+        if (existingImage) {
+            existingImage.remove();
+        }
+        
+        if (question.image) {
+            const imageContainer = document.createElement('div');
+            imageContainer.className = 'question-image-container';
+            
+            const image = document.createElement('img');
+            image.src = question.image;
+            image.alt = 'صورة توضيحية للسؤال';
+            image.className = 'question-image';
+            
+            imageContainer.appendChild(image);
+            questionText.after(imageContainer);
+        }
+        
         answersContainer.innerHTML = '';
         question.answers.forEach((answer, index) => {
             const button = document.createElement('button');
