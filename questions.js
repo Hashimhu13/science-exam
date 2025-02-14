@@ -1,7 +1,7 @@
 const quizQuestions = [
     {
         question: "في الصورة المعروضة، ما هو العضية الخلوية المشار إليها بالسهم والتي تعتبر 'مصنع الطاقة' في الخلية؟",
-        image: "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20230308.174459/resources/0e66b7c3d6c5f3c7e04e4066d39b9740fb12e02b",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Animal_cell_structure.svg/800px-Animal_cell_structure.svg.png",
         answers: [
             "الميتوكوندريا",
             "جهاز جولجي",
@@ -13,7 +13,7 @@ const quizQuestions = [
     },
     {
         question: "في الشكل الموضح، ما نوع الرافعة المستخدمة في المقص؟",
-        image: "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20230308.174459/resources/89da0dbc06aaa90ef2a397347af0020608f71e2a",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Lever_first_class.svg/640px-Lever_first_class.svg.png",
         answers: [
             "رافعة من النوع الأول",
             "رافعة من النوع الثاني",
@@ -24,8 +24,8 @@ const quizQuestions = [
         explanation: "المقص هو مثال على رافعة النوع الأول، حيث تقع نقطة الارتكاز بين القوة والمقاومة"
     },
     {
-        question: "في الصورة المعروضة، ما هو التركيب المشار إليه والذي يحمي الخلية ويتحكم في المواد الداخلة والخارجة منها؟",
-        image: "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20230308.174459/resources/8f7461a84e4c7292419b8d6a2f25b09c19664470",
+        question: "في الصورة المعروضة، ما هو التركيب المشار إليه بالرقم 1؟",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Cell_membrane_detailed_diagram.svg/800px-Cell_membrane_detailed_diagram.svg.png",
         answers: [
             "النواة",
             "الغشاء البلازمي",
@@ -36,16 +36,16 @@ const quizQuestions = [
         explanation: "الغشاء البلازمي هو غشاء رقيق يحيط بالخلية ويتحكم في مرور المواد من وإلى الخلية"
     },
     {
-        question: "في الرسم التوضيحي، ما هو نوع البسيط المستخدم في فتح غطاء الزجاجة؟",
-        image: "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20230308.174459/resources/7d5d11f5e910e763f44b847f2c1a5a4e68c4c4a4",
+        question: "في الصورة، ما نوع الآلة البسيطة المستخدمة في العتلة الموضحة؟",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Lever.svg/640px-Lever.svg.png",
         answers: [
-            "رافعة",
-            "بكرة",
-            "عجلة ومحور",
-            "برغي"
+            "رافعة من النوع الأول",
+            "رافعة من النوع الثاني",
+            "رافعة من النوع الثالث",
+            "بكرة"
         ],
-        correct: 3,
-        explanation: "فتاحة الزجاجات تستخدم البرغي (المسمار الحلزوني) كآلة بسيطة لفتح الغطاء"
+        correct: 0,
+        explanation: "هذه رافعة من النوع الأول حيث نقطة الارتكاز تقع بين القوة والمقاومة"
     },
     {
         question: "ما هي وحدة قياس القوة؟",
@@ -324,7 +324,7 @@ const quizQuestions = [
     },
     {
         question: "ما نوع الرافعة الموضحة في الصورة؟",
-        image: "images/lever-type1.png",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Lever_first_class.svg/640px-Lever_first_class.svg.png",
         answers: [
             "رافعة من النوع الأول",
             "رافعة من النوع الثاني",
@@ -336,7 +336,7 @@ const quizQuestions = [
     },
     {
         question: "ما اسم الجهاز المستخدم في قياس الضغط الجوي الموضح في الصورة؟",
-        image: "images/barometer.png",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Barometer_animated.gif/640px-Barometer_animated.gif",
         answers: [
             "الثرمومتر",
             "البارومتر",
@@ -348,7 +348,7 @@ const quizQuestions = [
     },
     {
         question: "في الصورة أدناه، ما هو نوع التفاعل الكيميائي الموضح؟",
-        image: "images/chemical-reaction.png",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Chemical_reaction.svg/640px-Chemical_reaction.svg.png",
         answers: [
             "تفاعل طارد للحرارة",
             "تفاعل ماص للحرارة",
