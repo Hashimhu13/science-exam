@@ -13,16 +13,25 @@ document.addEventListener('DOMContentLoaded', () => {
     const shareBtn = document.getElementById('share-btn');
     const retryBtn = document.getElementById('retry-btn');
     const timerDisplay = document.getElementById('time');
+    const studentNameInput = document.getElementById('student-name');
+    const nameError = document.getElementById('name-error');
 
     let currentQuestionIndex = 0;
     let score = 0;
     let timer;
     let timeLeft;
+    let studentName = '';
 
     // تحديث إجمالي عدد الأسئلة
     totalQuestionsSpan.textContent = quizQuestions.length;
 
     function startQuiz() {
+        studentName = studentNameInput.value.trim();
+        if (!studentName) {
+            nameError.classList.remove('hidden');
+            return;
+        }
+        nameError.classList.add('hidden');
         startScreen.classList.add('hidden');
         quizScreen.classList.remove('hidden');
         currentQuestionIndex = 0;
@@ -101,6 +110,12 @@ document.addEventListener('DOMContentLoaded', () => {
         correctAnswersSpan.textContent = score;
         percentageSpan.textContent = percentage.toFixed(1);
 
+        // إضافة اسم الطالب إلى النتائج
+        const studentNameDisplay = document.createElement('h3');
+        studentNameDisplay.textContent = `اسم الطالب: ${studentName}`;
+        studentNameDisplay.classList.add('student-name-display');
+        resultsScreen.insertBefore(studentNameDisplay, resultsScreen.firstChild);
+
         // إضافة مراجعة الأسئلة
         const reviewContainer = document.createElement('div');
         reviewContainer.classList.add('review-container');
@@ -149,13 +164,19 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    studentNameInput.addEventListener('input', () => {
+        if (nameError.classList.contains('hidden') === false) {
+            nameError.classList.add('hidden');
+        }
+    });
+
     retryBtn.addEventListener('click', () => {
         resultsScreen.classList.add('hidden');
         startQuiz();
     });
 
     shareBtn.addEventListener('click', () => {
-        const shareText = `لقد حصلت على ${score} من ${quizQuestions.length} في اختبار العلوم للصف السادس!`;
+        const shareText = `الطالب ${studentName} حصل على ${score} من ${quizQuestions.length} في اختبار العلوم للصف السادس!`;
         if (navigator.share) {
             navigator.share({
                 title: 'نتيجة اختبار العلوم',

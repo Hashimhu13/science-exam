@@ -168,6 +168,41 @@ h2 {
     border-right: 4px solid #3498db;
 }
 
+.name-input-container {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.name-input-container label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #2c3e50;
+}
+
+#student-name {
+    width: 100%;
+    max-width: 300px;
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    text-align: center;
+    direction: rtl;
+}
+
+#student-name:focus {
+    outline: none;
+    border-color: #2980b9;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+.error-message {
+    color: #e74c3c;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
 @media (max-width: 600px) {
     .container {
         padding: 1rem;

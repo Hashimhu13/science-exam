@@ -11,7 +11,12 @@
         <div id="start-screen" class="screen">
             <h1>اختبار العلوم</h1>
             <h2>الصف السادس - الفصل الدراسي الثاني</h2>
+            <div class="name-input-container">
+                <label for="student-name">الرجاء إدخال اسمك:</label>
+                <input type="text" id="student-name" placeholder="أدخل اسمك هنا" required>
+            </div>
             <button id="start-btn" class="btn">ابدأ الاختبار</button>
+            <p id="name-error" class="error-message hidden">الرجاء إدخال اسمك قبل بدء الاختبار</p>
         </div>
 
         <div id="quiz-screen" class="screen hidden">
