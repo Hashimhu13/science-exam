@@ -1,7 +1,7 @@
 const quizQuestions = [
     {
         question: "في الصورة المعروضة، ما هو العضية الخلوية المشار إليها بالسهم والتي تعتبر 'مصنع الطاقة' في الخلية؟",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Animal_cell_structure.svg/800px-Animal_cell_structure.svg.png",
+        image: "https://i.ibb.co/9tGxmz0/animal-cell.png",
         answers: [
             "الميتوكوندريا",
             "جهاز جولجي",
@@ -13,7 +13,7 @@ const quizQuestions = [
     },
     {
         question: "في الشكل الموضح، ما نوع الرافعة المستخدمة في المقص؟",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Scissors.svg/640px-Scissors.svg.png",
+        image: "https://i.ibb.co/C6h4Zs8/scissors.png",
         answers: [
             "رافعة من النوع الأول",
             "رافعة من النوع الثاني",
@@ -25,7 +25,7 @@ const quizQuestions = [
     },
     {
         question: "في الصورة المعروضة، ما هو التركيب المشار إليه بالسهم؟",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Cell_membrane_detailed_diagram.svg/800px-Cell_membrane_detailed_diagram.svg.png",
+        image: "https://i.ibb.co/wQZHXjP/cell-membrane.png",
         answers: [
             "النواة",
             "الغشاء البلازمي",
@@ -37,7 +37,7 @@ const quizQuestions = [
     },
     {
         question: "في الصورة، ما نوع الآلة البسيطة المستخدمة في العتلة الموضحة؟",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Scissors.svg/640px-Scissors.svg.png",
+        image: "https://i.ibb.co/C6h4Zs8/scissors.png",
         answers: [
             "رافعة من النوع الأول",
             "رافعة من النوع الثاني",
@@ -291,7 +291,7 @@ const quizQuestions = [
     },
     {
         question: "ما هي وظيفة الميتوكوندريا في الخلية؟",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Animal_cell_structure.svg/800px-Animal_cell_structure.svg.png",
+        image: "https://i.ibb.co/9tGxmz0/animal-cell.png",
         answers: [
             "تخزين المواد الغذائية",
             "إنتاج الطاقة",
@@ -325,7 +325,7 @@ const quizQuestions = [
     },
     {
         question: "ما نوع الرافعة الموضحة في الصورة؟",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Scissors.svg/640px-Scissors.svg.png",
+        image: "https://i.ibb.co/C6h4Zs8/scissors.png",
         answers: [
             "رافعة من النوع الأول",
             "رافعة من النوع الثاني",
@@ -337,7 +337,7 @@ const quizQuestions = [
     },
     {
         question: "ما اسم الجهاز المستخدم في قياس الضغط الجوي الموضح في الصورة؟",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Barometer_aneroid.png/800px-Barometer_aneroid.png",
+        image: "https://i.ibb.co/8K5RjZB/barometer.png",
         answers: [
             "الثرمومتر",
             "البارومتر",
@@ -349,7 +349,7 @@ const quizQuestions = [
     },
     {
         question: "في الصورة أدناه، ما هو نوع التفاعل الكيميائي الموضح؟",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Exothermic_reaction.svg/800px-Exothermic_reaction.svg.png",
+        image: "https://i.ibb.co/3C4zrRj/exothermic-reaction.png",
         answers: [
             "تفاعل طارد للحرارة",
             "تفاعل ماص للحرارة",
